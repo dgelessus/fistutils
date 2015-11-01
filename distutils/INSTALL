@@ -1,0 +1,5 @@
+To install this patched version of distutils, simply move/copy it to your site-packages folder.
+
+If you're on a version of Pythonista older than 1.6, you also need to modify sys.path on every run of Pythonista to make site-packages take priority over the stdlib. As of 1.6 this is the default and you do not need to do this manually.
+
+It is also recommended to install the pydistutils.cfg file - see the instructions in that file for details.
